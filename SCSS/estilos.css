@@ -1,0 +1,67 @@
+main {
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  grid-gap: 10px;
+      grid-template-areas: "header header header" "contenido contenido contenido" "footer footer footer";
+}
+
+main > * {
+  background-color: grey;
+}
+
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: contenido;
+  font-family: serif;
+}
+
+footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+}
+
+.titulo {
+  height: 400px;
+  background-image: url(../imagenes/rsz_1portada.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.card {
+  border: 0 !important;
+  -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card-tittle {
+  min-height: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-text {
+  min-height: 10rem;
+  font-family: sans-serif;
+}
+
+footer {
+  height: 200px;
+}
+
+p {
+  text-align: center;
+}
+/*# sourceMappingURL=estilos.css.map */

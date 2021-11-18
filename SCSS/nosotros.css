@@ -1,0 +1,24 @@
+body {
+  background-color: grey;
+}
+
+.nosotros {
+  height: 400px;
+  background-position: center;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+  overflow-y: scroll;
+}
+
+.comenzar {
+  background-color: black;
+  color: white;
+  height: 300px;
+}
+
+footer {
+  height: 200px;
+}
+/*# sourceMappingURL=nosotros.css.map */

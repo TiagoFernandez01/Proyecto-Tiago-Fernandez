@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+
+article {
+  color: white;
+  margin-top: 100px;
+}
+
+.preguntas_titulo {
+  color: white;
+  height: 200px;
+  background-color: grey;
+}
+
+h3 {
+  color: #1c1cb8;
+}
+/*# sourceMappingURL=preuntas.css.map */
