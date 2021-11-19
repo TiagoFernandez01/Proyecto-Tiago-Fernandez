@@ -70,7 +70,8 @@ footer {
 }
 
 .pie {
-  background-color: #bdbdbd;
+  background-color: black;
+  color: white;
 }
 
 .principio {
@@ -94,5 +95,9 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+body {
+  background-color: black;
 }
 /*# sourceMappingURL=planes.css.map */

@@ -48,7 +48,7 @@ footer {
 }
 
 .card-tittle {
-  min-height: 3rem;
+  min-height: 5rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -59,9 +59,5 @@ footer {
 
 footer {
   height: 200px;
-}
-
-p {
-  text-align: center;
 }
 /*# sourceMappingURL=estilos.css.map */
