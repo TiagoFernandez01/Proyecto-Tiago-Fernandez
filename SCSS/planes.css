@@ -43,6 +43,7 @@ footer {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: footer;
+  background-color: gray;
 }
 
 .container__bordes {

@@ -95,4 +95,15 @@ h3 {
   color: #1c1cb8;
   font-weight: bold;
 }
+
+input {
+  width: 180px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+input:focus {
+  width: 210px;
+  font-size: 20px;
+}
 /*# sourceMappingURL=contacto.css.map */
