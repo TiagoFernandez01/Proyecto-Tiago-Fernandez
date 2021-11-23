@@ -1,0 +1,22 @@
+main {
+    display: grid;
+    font-family: sans-serif;
+    height: 100vh;
+    grid-gap: 10px;
+    
+
+    /* Especificar posición de las areas */
+    grid-template-areas:
+        "header"
+        "contenido"
+        "izquierda"
+        "derecha"
+        "footer";
+}
+
+main > * {
+    background-color: gray;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}

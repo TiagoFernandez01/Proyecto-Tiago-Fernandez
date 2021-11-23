@@ -1,0 +1,12 @@
+.aside--izquierda{
+    background-color: rgb(87, 85, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside__titulo--uppercase{
+    text-transform: uppercase;
+    font-family: 'Gill Sans';
+    padding-left: 25px;
+}

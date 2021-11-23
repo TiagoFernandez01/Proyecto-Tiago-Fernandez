@@ -1,0 +1,15 @@
+.aside_derecha{
+    display: grid;
+    grid-column: auto;
+    justify-content: start;
+    color: rgb(28, 28, 184);
+    font-weight: bold;
+}
+
+.aside_derecha--training{
+    display: grid;
+    grid-column: auto;
+    justify-content: end;
+    color: rgb(28, 28, 184);
+    font-weight: bold;
+}
