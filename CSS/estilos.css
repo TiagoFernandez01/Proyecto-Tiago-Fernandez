@@ -1,3 +1,52 @@
+.main_index {
+  background-color: grey;
+}
+
+.body-contacto {
+  background-color: black;
+}
+
+.main-contacto {
+  background-color: grey;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-contacto h3 {
+  color: #1c1cb8;
+}
+
+.main-planes {
+  background-color: black;
+}
+
+.footer-index {
+  height: 200px;
+}
+
+.footer-contacto {
+  background-color: black;
+  color: white;
+}
+
+.footer-planes {
+  background-color: black;
+  color: white;
+}
+
+.footer-preguntas {
+  background-color: black;
+  height: 200px;
+  color: white;
+}
+
+.header {
+  height: 400px;
+  background-image: url(../imagenes/rsz_1portada.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
 .card {
   border: 0 !important;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -13,20 +62,71 @@
   font-family: sans-serif;
 }
 
-main > * {
+.nosotros {
+  height: 500px;
+  background-position: center;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+  overflow-y: scroll;
+}
+
+.comenzar {
+  background-color: black;
+  color: white;
+  height: 300px;
+}
+
+.titulo-planes {
+  height: 200px;
+  background-color: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.principio {
+  border: blue solid;
+  border-style: groove;
+}
+
+.preguntas-titulo {
+  color: white;
+  height: 200px;
   background-color: grey;
 }
 
-footer {
-  height: 200px;
+.body-preguntas {
+  background-color: black;
 }
 
-.titulo {
-  height: 400px;
-  background-image: url(../imagenes/rsz_1portada.jpg);
-  background-size: cover;
-  background-position: center;
+input {
+  width: 180px;
+  transition: all 2s;
+}
+
+input:focus {
+  width: 210px;
+  font-size: 20px;
+}
+
+.articulo-planes {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+.articulo-planes {
+  background-color: black;
   color: white;
+  font-family: monospace;
+}
+
+.articulo-preguntas {
+  background-color: black;
+  color: white;
+}
+.articulo-preguntas h3 {
+  color: #1c1cb8;
 }
 
 /*# sourceMappingURL=estilos.css.map */

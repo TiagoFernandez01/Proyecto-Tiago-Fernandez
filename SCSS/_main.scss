@@ -1,5 +1,23 @@
 $fondo: grey;
+$h3: rgb(28, 28, 184);
+.main_index{
+    background-color: $fondo;
+}
 
-main > * {
-    background-color: $fondo
+.body-contacto{
+    background-color: black;
+}
+
+.main-contacto{
+    background-color: $fondo;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    h3 {
+        color:$h3;
+    }
+    
+}
+
+.main-planes{
+    background-color: black;
 }
