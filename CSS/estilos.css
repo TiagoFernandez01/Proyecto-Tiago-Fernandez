@@ -9,7 +9,7 @@
 .main-contacto {
   background-color: grey;
   color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
 }
 .main-contacto h3 {
   color: #1c1cb8;
@@ -54,12 +54,11 @@
 
 .card-tittle {
   min-height: 5rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .card-text {
   min-height: 10rem;
-  font-family: sans-serif;
+  font-family: initial;
 }
 
 .nosotros {
@@ -86,7 +85,7 @@
 }
 
 .principio {
-  border: blue solid;
+  border: #1c1cb8;
   border-style: groove;
 }
 
@@ -108,11 +107,6 @@ input {
 input:focus {
   width: 210px;
   font-size: 20px;
-}
-
-.articulo-planes {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: large;
 }
 
 .articulo-planes {

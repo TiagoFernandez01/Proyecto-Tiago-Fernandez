@@ -1,20 +1,17 @@
-.articulo-planes{
-    
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-}
+@import "fonts";
+@import "colores";
 
 .articulo-planes {
-    background-color: black;
-    color: white;
-    font-family: monospace;
+    background-color: $negro;
+    color: $blanco;
+    font-family: $fontplanes;
 }
 
 .articulo-preguntas{
-    background-color: black;
-    color: white;
+    background-color: $negro;
+    color: $blanco;
     h3{
-        color:rgb(28, 28, 184);
+        color:$h3;
     }
     
 }

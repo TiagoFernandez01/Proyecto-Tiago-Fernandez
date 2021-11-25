@@ -1,9 +1,10 @@
+@import "colores";
 .header {
     height: 400px;
     background-image:url(../imagenes/rsz_1portada.jpg);
     background-size:cover;
     background-position: center;
-    color: white;
+    color: $blanco;
   
 }
 

@@ -1,24 +1,25 @@
+@import "colores";
+@import "fonts";
+
 .card {
     border: 0 !important;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) ;
+    box-shadow: 0 4px 6px -1px $sombreado ;
 
 }
  .card-tittle{
      min-height: 5rem;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     
  }
 
  .card-text {
      min-height: 10rem;
-     font-family:sans-serif;
+     font-family:$carta;
  }
 
  .nosotros {
     height: 500px;
   background-position: center;
-  color: black;
-  background-color: white;
+  color: $negro;
+  background-color: $blanco;
   text-align: center;
   padding-top: 10px;
   overflow-y: scroll;
@@ -27,8 +28,8 @@
 
 
 .comenzar {
-    background-color: black;
-    color: white;
+    background-color: $negro;
+    color: $blanco;
     height: 300px;
 }
 
@@ -36,24 +37,24 @@
 
 .titulo-planes{
     height: 200px;
-    background-color: white;
-    color: black;
+    background-color: $blanco;
+    color: $negro;
     margin-bottom: 20px;
 }
 
 .principio{
-    border: blue solid;
+    border: $h3;
     border-style: groove;
    
 
 }
 
 .preguntas-titulo{
-    color: white;
+    color: $blanco;
     height: 200px;
-    background-color: grey;
+    background-color: $gris;
 }
 
 .body-preguntas{
-    background-color: black;
+    background-color: $negro;
 }
