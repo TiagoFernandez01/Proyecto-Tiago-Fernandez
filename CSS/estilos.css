@@ -24,6 +24,7 @@
 }
 
 .footer-contacto {
+  height: 200px;
   background-color: black;
   color: white;
 }
@@ -37,6 +38,10 @@
   background-color: black;
   height: 200px;
   color: white;
+}
+
+.footer-nosotros {
+  background-color: grey;
 }
 
 .header {
@@ -121,6 +126,12 @@ input:focus {
 }
 .articulo-preguntas h3 {
   color: #1c1cb8;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
